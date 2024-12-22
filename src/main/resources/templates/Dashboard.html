@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Spam Analyzer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="navbar">
+    <nav>
+        <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#" class="active">Analyze Email</a></li>
+            <li><a href="#">History</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="container">
+    <section class="analysis-section">
+        <h1>Analyze Email</h1>
+        <textarea placeholder="Paste email content here..."></textarea>
+        <div class="buttons">
+            <button class="upload-btn">Upload Email File</button>
+            <button class="analyze-btn">Analyze Email</button>
+        </div>
+    </section>
+
+    <section class="results-section">
+        <h2>Analysis Results</h2>
+        <p>Spam Probability:</p>
+        <div class="progress-bar">
+            <div class="progress" style="width: 75%;"></div>
+        </div>
+        <p>Confidence Score: 75%</p>
+    </section>
+</main>
+
+<footer class="footer">
+    <p>&copy; 2024 Email Spam Analyzer. All rights reserved.</p>
+</footer>
+</body>
+</html>

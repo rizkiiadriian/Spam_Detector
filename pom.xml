@@ -11,8 +11,8 @@
     <groupId>com.pa</groupId>
     <artifactId>SpamDetector</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>FraudDetection</name>
-    <description>Fraud Detection project for Spring Boot</description>
+    <name>SpamDetector</name>
+    <description>Spam Detector project for Spring Boot</description>
     <url/>
     <licenses>
         <license/>
